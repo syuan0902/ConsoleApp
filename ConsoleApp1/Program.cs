@@ -26,6 +26,19 @@ namespace ConsoleApp1
             bool truthValue = true;
             Console.WriteLine(truthValue);
 
+            int someValue = 10;
+            string message;
+
+            if(someValue == 24)
+            {
+                message = "The value was 24.";
+            }
+            else
+            {
+                message = "The value wasn't 24.";
+            }
+            Console.WriteLine(message);
+
         }
     }
 }
